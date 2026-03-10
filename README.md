@@ -1,6 +1,10 @@
 # Lucas-Flores-Actividad-Semana1-CODENODE
+
+
 Para iniciar el archivo 
-1-Debe de estar en: C:\xampp\htdocs\mi-formulario
+
+
+1-Descarga y pega la carpeta mi-formulario en: C:\xampp\htdocs
 
 
 2-Debe estar apache activo
