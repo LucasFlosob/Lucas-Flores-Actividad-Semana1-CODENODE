@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario Semántico</title>
+    <style>
+        body { font-family: sans-serif; line-height: 1.6; max-width: 600px; margin: 2rem auto; padding: 0 1rem; }
+        form { background: #ff4444; padding: 2rem; border-radius: 8px; }
+        label { display: block; margin-bottom: 0.5rem; font-weight: bold; }
+        input[type="text"] { width: 100%; padding: 0.5rem; margin-bottom: 1rem; border: 1px solid #000000; border-radius: 4px; box-sizing: border-box; }
+        button { background-color: #ff00aa; color: rgb(68, 49, 49); padding: 0.5rem 1rem; border: none; border-radius: 4px; cursor: pointer; }
+        button:hover { background-color: #000000; }
+    </style>
+</head>
+<body>
+
+    <main>
+        <header>
+            <h1>Formulario de Contacto</h1>
+        </header>
+
+        <section>
+            <p>Por favor, ingresa tu nombre para recibir un saludo personalizado.</p>
+            
+            <form action="ACTIVIDAD_PHP_FIN.php" method="POST">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" placeholder="Escribe tu nombre aquí" required>
+                
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </main>
+
+</body>
+</html>
